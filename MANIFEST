@@ -1,0 +1,17 @@
+Build.PL
+Changes
+lib/WWW/Snooze.pm
+lib/WWW/Snooze/Request.pm
+lib/WWW/Snooze/Serialize.pm
+lib/WWW/Snooze/Serialize/JSON.pm
+MANIFEST			This list of files
+README.pod
+t/00-load.t
+t/01-request.t
+t/manifest.t
+t/pod-coverage.t
+t/pod.t
+t/WWW-Snooze.t
+Makefile.PL
+META.yml
+META.json

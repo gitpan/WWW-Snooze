@@ -1,0 +1,38 @@
+---
+abstract: 'Simple RESTful API'
+author:
+  - 'Anthony Johnson <aj@ohess.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120630'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Snooze
+provides:
+  WWW::Snooze:
+    file: lib/WWW/Snooze.pm
+    version: 0.01_01
+  WWW::Snooze::Request:
+    file: lib/WWW/Snooze/Request.pm
+    version: 0
+  WWW::Snooze::Serialize:
+    file: lib/WWW/Snooze/Serialize.pm
+    version: 0
+  WWW::Snooze::Serialize::JSON:
+    file: lib/WWW/Snooze/Serialize/JSON.pm
+    version: 0
+requires:
+  HTTP::Request: 0
+  JSON: 0
+  LWP::Protocol::https: 0
+  LWP::UserAgent: 0
+  URI: 0
+  perl: 5.008
+resources:
+  license: http://opensource.org/licenses/mit-license.php
+version: 0.01_01
