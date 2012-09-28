@@ -3,7 +3,7 @@ package WWW::Snooze;
 use strict;
 use warnings;
 
-our $VERSION = '0.01_01';
+our $VERSION = '0.01_02';
 
 use WWW::Snooze::Request;
 
@@ -49,19 +49,9 @@ performed like so:
 
 =head1 METHODS
 
-=head2 C<request($baseurl, %args)>
+=head2 request
 
-=over 4
-
-=item C<headers>
-
-Override headers with an instance of L<HTTP::Headers>
-
-=item C<serializer>
-
-Override serializer with and instance of L<WWW::Snooze::Serialize>
-
-=back
+Returns an instance of L<WWW::Snooze::Request>
 
 =head1 AUTHOR
 

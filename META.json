@@ -16,6 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
+            "Test::Exception" : "0",
             "Test::More" : "0"
          }
       },
@@ -38,7 +39,7 @@
    "provides" : {
       "WWW::Snooze" : {
          "file" : "lib/WWW/Snooze.pm",
-         "version" : "0.01_01"
+         "version" : "0.01_02"
       },
       "WWW::Snooze::Request" : {
          "file" : "lib/WWW/Snooze/Request.pm",
@@ -55,9 +56,16 @@
    },
    "release_status" : "testing",
    "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/agjohnson/snooze-pl/issues"
+      },
+      "homepage" : "http://ohess.org/projects/snooze-pl",
       "license" : [
          "http://opensource.org/licenses/mit-license.php"
-      ]
+      ],
+      "repository" : {
+         "url" : "http://github.com/agjohnson/snooze-pl.git"
+      }
    },
-   "version" : "0.01_01"
+   "version" : "0.01_02"
 }

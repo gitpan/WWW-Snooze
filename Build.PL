@@ -10,6 +10,7 @@ my $builder = Module::Build->new(
     dist_version_from => 'lib/WWW/Snooze.pm',
     build_requires => {
         'Test::More' => 0,
+        'Test::Exception' => 0
     },
     requires => {
         'perl' => 5.008,
@@ -21,6 +22,13 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup => [ 'WWW-Snooze-*' ],
     create_makefile_pl => 'traditional',
+    meta_merge => {
+        resources => {
+            homepage => 'http://ohess.org/projects/snooze-pl',
+            bugtracker => 'http://github.com/agjohnson/snooze-pl/issues',
+            repository => 'http://github.com/agjohnson/snooze-pl.git',
+        }
+    },
 );
 
 $builder->create_build_script();

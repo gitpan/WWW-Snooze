@@ -9,8 +9,9 @@ WriteMakefile
   'EXE_FILES' => [],
   'VERSION_FROM' => 'lib/WWW/Snooze.pm',
   'PREREQ_PM' => {
-                   'Test::More' => 0,
                    'URI' => 0,
+                   'Test::Exception' => 0,
+                   'Test::More' => 0,
                    'LWP::UserAgent' => 0,
                    'LWP::Protocol::https' => 0,
                    'JSON' => 0,
